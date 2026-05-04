@@ -9,12 +9,12 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <FileVersion>2.0.0.0</FileVersion>
-    <RepositoryUrl>https://github.com/grecojoao/FlyGon.CQRS</RepositoryUrl>
+    <RepositoryUrl>https://github.com/gregojoao/FlyGon.CQRS</RepositoryUrl>
     <Description>Easily use the CQRS design pattern.</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <NeutralLanguage></NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/grecojoao/FlyGon.CQRS</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/gregojoao/FlyGon.CQRS</PackageProjectUrl>
     <PackageTags>Domain;DDD;CQRS;FlyGon;FlyGon.CQRS</PackageTags>
     <PackageReleaseNotes>Updated to .NET 10.0 and latest dependencies.</PackageReleaseNotes>
   </PropertyGroup>

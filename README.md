@@ -210,12 +210,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**João Greco** ([@grecojoao](https://github.com/grecojoao))
+**João Greco** ([@gregojoao](https://github.com/gregojoao))
 
 ## 🔗 Links
 
 - [NuGet Package](https://www.nuget.org/packages/FlyGon.CQRS)
-- [GitHub Repository](https://github.com/grecojoao/FlyGon.CQRS)
+- [GitHub Repository](https://github.com/gregojoao/FlyGon.CQRS)
 - [FlyGon.Notifications](https://www.nuget.org/packages/FlyGon.Notifications)
 
 ## ⭐ Show Your Support
