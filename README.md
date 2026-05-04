@@ -1,6 +1,6 @@
 # FlyGon.CQRS
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4)](https://dotnet.microsoft.com/)
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![NuGet](https://img.shields.io/badge/nuget-v2.0.0-blue)](https://www.nuget.org/packages/FlyGon.CQRS)
 [![Tests](https://img.shields.io/badge/tests-33%20passing-success)](tests/)
@@ -9,10 +9,10 @@ Easily use the CQRS (Command Query Responsibility Segregation) design pattern in
 
 ## 🚀 What's New in v2.0.0
 
-- ✅ **Upgraded to .NET 8.0** (LTS until November 2026)
+- ✅ **Upgraded to .NET 10** (LTS until November 2028)
 - ✅ **33 comprehensive unit tests** with 100% pass rate
 - ✅ **Full test coverage** with code coverage reports
-- ✅ **Latest dependencies** and best practices
+- ✅ **Latest dependencies** (FluentAssertions 8.9.0, Test SDK 18.5.1)
 - ✅ **Improved documentation** and examples
 
 ## 📦 Installation
@@ -184,13 +184,13 @@ FlyGon.CQRS/
 
 ### Breaking Changes
 
-- **Target Framework**: Changed from `netstandard2.1` to `net8.0`
-- Projects targeting older frameworks need to upgrade to .NET 8.0 or later
+- **Target Framework**: Changed from `netstandard2.1` to `net10.0`
+- Projects targeting older frameworks need to upgrade to .NET 10 or later
 
 ### Benefits of Upgrading
 
-- 🚀 **Performance**: Significant performance improvements from .NET 8.0
-- 🛡️ **Support**: LTS support until November 2026
+- 🚀 **Performance**: Significant performance improvements from .NET 10
+- 🛡️ **Support**: LTS support until November 2028
 - ✅ **Quality**: Comprehensive test coverage
 - 🔧 **Tooling**: Better IDE and tooling support
 
@@ -224,4 +224,4 @@ Give a ⭐️ if this project helped you!
 
 ---
 
-**Made with ❤️ using .NET 8.0**
+**Made with ❤️ using .NET 10**

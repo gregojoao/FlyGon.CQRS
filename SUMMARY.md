@@ -8,9 +8,10 @@ Todas as tarefas solicitadas foram completadas com sucesso!
 
 ## 📋 Checklist de Tarefas
 
-- [x] **Atualizar para .NET 8.0**
-  - [x] FlyGon.CQRS: netstandard2.1 → net8.0
-  - [x] FlyGon.CQRS.HowToUse: net5.0 → net8.0
+- [x] **Atualizar para .NET 10**
+  - [x] FlyGon.CQRS: netstandard2.1 → net10.0
+  - [x] FlyGon.CQRS.HowToUse: net5.0 → net10.0
+  - [x] FlyGon.CQRS.Tests: net8.0 → net10.0
   
 - [x] **Atualizar Dependências**
   - [x] FlyGon.Notifications: 1.1.2 (já na versão mais recente)
@@ -40,8 +41,9 @@ Todas as tarefas solicitadas foram completadas com sucesso!
 ### Frameworks Atualizados
 | Projeto | Antes | Depois |
 |---------|-------|--------|
-| FlyGon.CQRS | netstandard2.1 | **net8.0** |
-| FlyGon.CQRS.HowToUse | net5.0 | **net8.0** |
+| FlyGon.CQRS | netstandard2.1 | **net10.0** |
+| FlyGon.CQRS.HowToUse | net5.0 | **net10.0** |
+| FlyGon.CQRS.Tests | - | **net10.0** |
 
 ### Versão do Pacote
 | Antes | Depois |
@@ -57,13 +59,14 @@ Todas as tarefas solicitadas foram completadas com sucesso!
 | GenericHandler Tests | 14 | ✅ 100% |
 | **TOTAL** | **33** | **✅ 100%** |
 
-### Dependências de Teste
+### Test Dependencies
 | Pacote | Versão |
 |--------|--------|
 | xunit | 2.9.2 |
-| FluentAssertions | 6.12.2 |
+| xunit.runner.visualstudio | 3.1.5 |
+| FluentAssertions | 8.9.0 |
 | NSubstitute | 5.3.0 |
-| Microsoft.NET.Test.Sdk | 17.11.1 |
+| Microsoft.NET.Test.Sdk | 18.5.1 |
 | coverlet.collector | 6.0.2 |
 
 ### Arquivos Modificados/Criados
