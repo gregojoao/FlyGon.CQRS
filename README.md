@@ -1,8 +1,10 @@
 # FlyGon.CQRS
 
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)](https://dotnet.microsoft.com/)
+[![Build and Test](https://github.com/gregojoao/FlyGon.CQRS/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/gregojoao/FlyGon.CQRS/actions/workflows/build-and-test.yml)
+[![NuGet](https://img.shields.io/nuget/v/FlyGon.CQRS.svg)](https://www.nuget.org/packages/FlyGon.CQRS)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/FlyGon.CQRS.svg)](https://www.nuget.org/packages/FlyGon.CQRS)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![NuGet](https://img.shields.io/badge/nuget-v2.0.0-blue)](https://www.nuget.org/packages/FlyGon.CQRS)
 [![Tests](https://img.shields.io/badge/tests-33%20passing-success)](tests/)
 
 Easily use the CQRS (Command Query Responsibility Segregation) design pattern in your .NET applications.
@@ -203,6 +205,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## 📦 Publishing a New Version
+
+To publish a new version to NuGet:
+
+1. Update the version in `src/FlyGon.CQRS/FlyGon.CQRS.csproj`
+2. Commit and push your changes
+3. Create a new release on GitHub with a tag (e.g., `v2.0.0`)
+4. GitHub Actions will automatically build, test, and publish to NuGet
+
+For detailed instructions, see [.github/RELEASE.md](.github/RELEASE.md)
 
 ## 📄 License
 
